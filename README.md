@@ -1,0 +1,2 @@
+# GameTetris-Mysql
+Este projeto consiste em um site onde é possível jogar uma nova versão do jogo Tetris, chamada Rolling Tetris (RT) e no qual usando as ferramentas Frond e Backend como: HTML, CSS, JavaScript, PHP e banco de dados Mysql. Assim, possibilita há um jogador cadastrado que jogue partidas, faça autenticação, o armazene e recupere seus resultados de cada partida jogada e que possa ver sua posição no ranking de melhores jogadores cadastrados.

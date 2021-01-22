@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  background: #40bfbd;
+  color: #FFF;
+}
+
+body, input, button {
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: 500;
+}
+
+button {
+  cursor: pointer;
+}
+.submit-button:hover {
+  background-color: #3080dc;
+}
+
+.submit-button {
+  background: #396FAC;
+  height: 56px;
+  border-radius: 10px;
+  border: 0;
+  padding: 0 16px;
+  color: #FFF;
+  width: 100%;
+  font-weight: 500;
+  margin-top: 16px;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: stretch;
+}
+
+div .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #ced4da; 
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #396FAC; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #396FAC; 
+}

@@ -1,0 +1,191 @@
+.all {
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.painel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.painel1 {
+  display: flex;
+}
+
+.div-info-caixas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.caixas p{
+  height: 38px;
+}
+
+#but-stock {
+  width: 110px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.game-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.game-info div {
+  vertical-align: middle;
+  margin: 12px 0 0px 0;
+  width: 120px;
+  height: 80px;
+  background: #9fcacae8;
+  border-radius: 20px;
+}
+
+.game-info div h3{
+  margin-top: 15px;
+}
+
+.text-header {
+  font-weight: bolder;
+  color: black;
+}
+
+.text-content {
+  color: white;
+  display: inline;
+}
+
+.ranking {
+  height: 400px;
+  overflow: auto;
+  width: 150px;
+  margin-left: 85px;
+  padding: 0 10px;
+}
+.row {
+  height: 100px;
+  border-top: 2px solid white;
+  padding: 10px 0 10px 0;
+}
+.rank-user {
+  color: #414141;
+}
+
+.last-row {
+  border-bottom: 2px solid white;
+}
+
+.div-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 330px;
+  margin-top: 20px;
+}
+/* Botões -------------------------- */
+.but{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  padding: 0 16px;
+  border-radius: 10px;
+  border: 0;  
+  font-weight: 500;
+}
+
+.div-buttons a {  
+  text-decoration: none;
+  color: white;
+}
+
+.play-button {
+  background: #396FAC;
+}
+.play-button:hover {
+  background-color: #3080dc;
+}
+
+.quit-button {
+  background: #c53030;
+  margin-top: 16px;
+}
+.quit-button:hover {
+  background-color: #f95d5c;
+}
+
+.pauseGame-button {
+  background: #e07e0f;  
+}
+.pauseGame-button:hover {
+  background-color: #fb8f12;
+}
+
+.ranking-button {
+  background: #3cad29;
+  margin-top: 16px;
+}
+.ranking-button:hover {
+  background-color: #4e8d70;
+}
+
+.profile:hover {
+  background-color: #9fcaca;
+}
+
+.fas, .far {
+  margin-right: 8px;
+}
+
+.profile {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  background-color: #3e7071;
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  font-size: 50px;
+  color: #FFF;
+}
+
+#loading {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: none;
+  opacity: 0.7;
+  background-color: #fff;
+  z-index: 99;
+  text-align: center;
+}
+
+.load-text {
+  z-index: 100;
+  color: black;
+}
+
+#loading-image {
+  z-index: 100;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -190px;
+}

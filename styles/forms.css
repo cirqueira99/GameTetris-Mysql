@@ -1,0 +1,84 @@
+h1 {
+  color: #FFF;
+}
+
+a {
+  color: #396FAC;
+  display: block;
+  margin-top: 24px;
+  text-decoration: none;
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+a:hover {
+  color: rgb(45, 88, 137);
+}
+
+i {
+  margin-right: 16px;
+}
+
+form {
+  margin: 30px 0 0 0;
+  text-align: center;
+}
+
+.input-icon {
+  background-color: #94DBD9;
+  border-radius: 10px;
+  border: 2px solid #94DBD9;
+  padding: 16px;
+  width: 100%;
+  color: #396FAC;
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+.double-input {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8px;
+}
+
+.input-phone-date {
+  background-color: #94DBD9;
+  border-radius: 10px;
+  border: 2px solid #94DBD9;
+  color: #396FAC;
+  padding: 16px;  
+  display: flex;
+  align-items: center;
+}
+.icon {
+  width: 59%;
+}
+
+.icon2{
+  width: 40%;
+}
+
+.input-date {
+  width: -webkit-fill-available;
+}
+
+input {
+  background-color: transparent;
+  flex: 1;
+  border: 0;
+  color: #396FAC;
+}
+
+input::placeholder {
+  color: #396FAC;
+}
+
+.input-icon + .input-icon {
+  margin-top: 8px;
+}
+
+.input-icon input:disabled, .blocked {
+  opacity: 0.6;
+  cursor: no-drop;
+}
